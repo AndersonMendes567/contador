@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="counter">
+
+    <h1>Contador</h1>
+
+    <div id="value-container">
+      <span id="value">0</span>
+    </div>
+
+    <div id="buttons">
+      <button onclick="decrement(Element)" title="decrementar">-</button>
+      <button onclick="increment(Element)" title="incrementar">+</button>
+      <button onclick="reset()" title="zerar">C</button>
+    </div>
+    
+    <div id="sum-sub-factor">
+      <input type="checkbox" onclick="changeToFactor1()">1</input>
+      <input type="checkbox" onclick="changeToFactor10()">10</input>
+      <input type="checkbox" onclick="changeToFactor100()">100</input>
+    </div>
+    <span>Fatores de soma e subtração</span>
+
+  <script src="script.js"></script>
+</body>
+</html>
